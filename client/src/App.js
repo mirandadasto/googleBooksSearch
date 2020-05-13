@@ -7,21 +7,19 @@ import Nav from "./components/Nav";
 import logo from "./logo.svg";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div>
-          <Nav />
-          <Switch>
-            <Route exact path = "/" components = {Home} />
-            <Route exact path = "/" components = {Saved} />
-            <Route component = {NoMatch} />
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <div>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/saved" component={Saved} />
+          <Route component={NoMatch} />
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
