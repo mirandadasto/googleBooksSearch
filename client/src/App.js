@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import "./App.css";
 
 function App() {
