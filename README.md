@@ -7,6 +7,7 @@ React
 Node
 Express
 MongoDB
+Mongoose
 
 How to Install:
 Clone the repository and run npm install. Run mongod to activate the MongoDB. On a different console run npm start and your browser will automatically open to localhost:3000
