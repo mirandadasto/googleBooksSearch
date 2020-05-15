@@ -12,5 +12,4 @@ Mongoose
 How to Install:
 Clone the repository and run npm install. Run mongod to activate the MongoDB. On a different console run npm start and your browser will automatically open to localhost:3000
 
-Deployment
-This app is deployed on Heroku at:
+This app is deployed using Heroku at: https://search-google-books-7.herokuapp.com/saved
